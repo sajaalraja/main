@@ -26,13 +26,15 @@ else if(typecomputer=='acer')
 
 
 }*/
-function askcustomer(type1,type2){
-  var nametypecomputer = type1 + type2;
-  console.log(nametypecomputer);
-  return nametypecomputer;
-}
 
-  askcustomer('dell','hp');
+
+  /* new */
+  function askcustomer(type){
+    var ask=prompt('do you like this type?' );
+    return ask;
+  }
+  var ask1=askcustomer('dell');
+  console.log(ask1);
   
 
 
