@@ -1,5 +1,5 @@
-var typecomputer= prompt('please enter type of acomputer (dell, acer)?')
-while (typecomputer !=='dell'   &&typecomputer!=='acer') {
+//var typecomputer= prompt('please enter type of acomputer (dell, acer)?')
+/*while (typecomputer !=='dell'   &&typecomputer!=='acer') {
   typecomputer= prompt('please enter typecomputer ( dell,acer)?');
   console.log(typecomputer);
 }
@@ -24,4 +24,15 @@ else if(typecomputer=='acer')
 } 
 
 
+
+}*/
+function askcustomer(type1,type2){
+  var nametypecomputer = type1 + type2;
+  console.log(nametypecomputer);
+  return nametypecomputer;
 }
+
+  askcustomer('dell','hp');
+  
+
+
