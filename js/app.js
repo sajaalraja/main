@@ -28,7 +28,7 @@ else if(typecomputer=='acer')
 }*/
 
 
-  /* new */
+  /* new lab6 */
   function askcustomer(type){
     var ask=prompt('do you like this type?' );
     return ask;
