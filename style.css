@@ -1,0 +1,32 @@
+header{
+  background-color: red;
+  
+  
+  
+  
+}
+nav ul li a{
+  text-decoration: none;
+  border: 1px solid blue;
+  display: inline-block;
+  width: 100px;
+  padding:10px;
+  margin:10px;
+}
+main{
+  background-color: rgb(255, 255,0);
+  
+}
+footer{
+  background-color: pink;
+  text-align: center;
+}
+
+{
+  text-align: center;
+  background-color: rgb(100, 100, 0);
+}
+p{
+  color:brown;
+  font-size: 30px;
+}
