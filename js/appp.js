@@ -1,6 +1,8 @@
-function askcustomer(type){
-    var ask=prompt('do you like this type?' );
-    return ask;
-  }
-  var ask1=askcustomer('dell');
-  console.log(ask1);
+var type1=prompt ('enter first type');
+var type2=prompt('enter second type');
+function askcustomer(type1,type2){
+  var result=type1+type2;
+  console.log(result);
+}
+askcustomer('dell','acer');
+    

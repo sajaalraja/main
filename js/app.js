@@ -29,12 +29,12 @@ else if(typecomputer=='acer')
 
 
   /* new lab6 */
-  function askcustomer(type){
-    var ask=prompt('do you like this type?' );
-    return ask;
+ // function askcustomer(type){
+   // var ask=prompt('do you like this type?' );
+   // return ask;
   }
-  var ask1=askcustomer('dell');
-  console.log(ask1);
+ // var ask1=askcustomer('dell');
+ // console.log(ask1);
   
 
 
